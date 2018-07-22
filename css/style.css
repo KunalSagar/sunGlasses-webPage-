@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: aliceblue;
+  padding: 3rem;
+  box-sizing: border-box; }
+
+.topbar-non-moveable {
+  padding: 0;
+  background-color: black;
+  margin-top: -3rem;
+  margin-left: -3rem;
+  margin-right: -3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .topbar-non-moveable__items {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    transition: all .2s;
+    color: white;
+    background-color: black; }
+    .topbar-non-moveable__items:hover {
+      color: black;
+      background-color: aliceblue; }

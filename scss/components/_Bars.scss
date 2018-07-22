@@ -1,0 +1,28 @@
+.topbar-non-moveable{
+    padding: 0;
+    background-color: black;
+    margin-top: -3rem;
+    margin-left: -3rem;
+    margin-right: -3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    &__items{
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        transition: all .2s;
+
+        color: white;
+        background-color: black;
+        
+        &:hover{
+            color: black;
+            background-color: aliceblue;
+        }
+    }
+}

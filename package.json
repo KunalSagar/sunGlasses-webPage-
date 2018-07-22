@@ -1,0 +1,22 @@
+{
+  "name": "sunglasshop",
+  "version": "1.0.0",
+  "description": "\"Landing page of sunglasshop\"",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass scss/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KunalSagar/sunGlasses-webPage-.git"
+  },
+  "author": "Kunal Sagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KunalSagar/sunGlasses-webPage-/issues"
+  },
+  "homepage": "https://github.com/KunalSagar/sunGlasses-webPage-#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
